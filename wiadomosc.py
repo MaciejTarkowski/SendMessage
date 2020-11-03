@@ -1,3 +1,3 @@
 from datetime import datetime
-message = "Moja wiadomosc"
+message = ""
 send_time = datetime.now()
