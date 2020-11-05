@@ -10,18 +10,21 @@ class Menu():
         wybor =input("Wybór: ")
         return wybor
         
+    def sprawdzanie_wiadomosci(self):
+        kod_wiadomosci = input("Podaj kod swojej wiadomosci:\n")
+        return kod_wiadomosci
         
     def menu_nowej_wiadomosci(self):
         print("Wybierz typ wiadomosci")
         print("1. Wiadomość tekstowa")
         print("2. Wiadomość obrazkowa")
         print("3. Wiadomość głosowa")
-        print("0. Wyjście")
+        print("0. Powrót")
         wybor =input("Wybór: ")
         return wybor
 
 
-    def menu_wiadomosci_tekstowej(self):
+    def tworzenie_wiadomosci_tekstowej(self):
         wyslane_przez = input("Wpisz od kogo jest wiadomość:\n")
         wiadomosc = input("Wpisz swoją wiadomość:\n")
         nowa_wiadomosc = {"wyslane_przez": wyslane_przez,
