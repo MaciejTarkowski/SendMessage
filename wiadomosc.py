@@ -18,6 +18,7 @@ class Wiadomosc:
         return wiadomosc
     
     def wyslij_wiadomosc(self):
+        #Tutaj będzie wysyłanie wiadomości przez antenę
         print("Wiadomość wysłana!",self.get_wiadomosc())
  
     
